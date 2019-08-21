@@ -7,7 +7,7 @@ public class SocketServer {
     public SocketServer(){
 
     }
-    public static void conn() throws IOException {
+    public void conn() throws IOException {
         //1.创建一个服务器端Socket，即ServerSocket，指定绑定的端口，并监听此端口
         System.out.println("Create socket server");
 
